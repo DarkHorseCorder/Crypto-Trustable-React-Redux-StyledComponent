@@ -1,0 +1,234 @@
+.wallet table {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.wallet thead {
+    height: 43px;
+    color: #6c7080;
+    font-size: 16px;
+    border-bottom: solid 2px rgb(33, 37, 41);
+    display: flex;
+    align-items: center;
+}
+
+.wallet thead tr {
+    display: flex;
+    width: 100%;
+}
+
+.wallet thead tr th {
+    padding-left: 10px;
+    width: 33%;
+}
+
+.wallet tbody {
+    display: flex;
+    width: 100%;
+    font-size: 16px;
+    flex-direction: column;
+}
+
+.wallet tbody tr {
+    height: 56px;
+    color: white;
+    display: flex;
+    width: 100%;
+    cursor: pointer;
+}
+
+.wallet tbody tr:hover {
+    background: #080808;
+}
+
+.wallet tbody td {
+    display: flex;
+    align-items: center;
+    width: 33%;
+    padding-left: 10px;
+}
+
+.wallet tbody .coinName {}
+
+.wallet tbody .coinName img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.wallet h1 {
+    font-size: 23px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.wallet-button-wrap {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.wallet-button-wrap P {
+    color: white;
+    margin-bottom: 0px;
+    display: flex;
+}
+
+.wallet-button-wrap .clip-button {
+    border: 0px;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 5px;
+}
+
+.wallet-button-wrap .clip-button svg {
+    width: 20px;
+    height: 20px;
+}
+
+.wallet-button-wrap button {
+    width: 125px;
+    height: 50px;
+    border: 1px solid rgba(204, 206, 217, 0.15);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    color: #9295A6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wallet-button-wrap button svg {
+    margin-right: 5px;
+}
+
+.loader-wrap {
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* spinner */
+
+@-webkit-keyframes rotate-Loader {
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes rotate-Loader {
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+@-webkit-keyframes rotateSpinner-Loader {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateSpinner-Loader {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes dot-Loader {
+    0% {
+        background: #fff;
+        box-shadow: inset 0 0 0 43px #121318;
+    }
+
+    25% {
+        background: #e003ef;
+        box-shadow: inset 0 0 0 36px #121318;
+    }
+
+    50% {
+        background: #fff;
+        box-shadow: inset 0 0 0 43px #121318;
+    }
+
+    75% {
+        background: #3d3eff;
+        box-shadow: inset 0 0 0 36px #121318;
+    }
+
+    50% {
+        background: #fff;
+        box-shadow: inset 0 0 0 43px #121318;
+    }
+}
+
+@keyframes dot-Loader {
+    0% {
+        background: #fff;
+        box-shadow: inset 0 0 0 43px #121318;
+    }
+
+    25% {
+        background: #e003ef;
+        box-shadow: inset 0 0 0 36px #121318;
+    }
+
+    50% {
+        background: #fff;
+        box-shadow: inset 0 0 0 43px #121318;
+    }
+
+    75% {
+        background: #3d3eff;
+        box-shadow: inset 0 0 0 36px #121318;
+    }
+
+    50% {
+        background: #fff;
+        box-shadow: inset 0 0 0 43px #121318;
+    }
+}
+
+.Loader {
+    -webkit-animation: rotate-Loader 3s infinite linear;
+    animation: rotate-Loader 3s infinite linear;
+    background-image: linear-gradient(#3d3eff, #e003ef);
+    border-radius: 50%;
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+    width: 100px;
+    -webkit-backface-visibility: hidden;
+    -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+}
+
+.Loader::before {
+    -webkit-animation: rotateSpinner-Loader 13s infinite linear;
+    animation: rotateSpinner-Loader 13s infinite linear;
+    background: rgba(255, 255, 255, 0.5);
+    content: "";
+    height: 60px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 60px;
+    transform-origin: 50px 50px;
+}
+
+.Loader::after {
+    -webkit-animation: dot-Loader 1.5s infinite;
+    animation: dot-Loader 1.5s infinite;
+    background: #e003ef;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 45px #121318;
+    content: "";
+    height: 90px;
+    left: 5px;
+    position: absolute;
+    top: 5px;
+    width: 90px;
+}
+

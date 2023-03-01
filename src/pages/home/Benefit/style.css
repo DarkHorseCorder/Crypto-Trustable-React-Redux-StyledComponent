@@ -1,0 +1,77 @@
+.benefit {
+    width: 90%;
+    margin-top: 70px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.benefit .title {
+    text-align: center;
+    color: #5367FF;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.benefit h1 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.benefit .description {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #9295A6;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 800px;
+    margin-bottom: 50px;
+}
+
+.benefit .services {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.benefit .services .service-item {
+    width: 23%;
+    background: #121318;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.benefit .services .service-item .img-wrap {
+    padding: 10px;
+    width: 70px;
+    border-radius: 8px;
+    background: black;
+    margin-bottom: 20px;
+}
+
+.benefit .services .service-item img {
+    width: 50px;
+}
+
+.benefit .services .service-item h5 {
+    font-size: 19px;
+    line-height: 23px;
+}
+
+.benefit .services .service-item p {
+    color: #6C7080;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 0px;
+}
+
+.benefit .services .service-item p a {
+    text-decoration: none;
+    margin-right: 10px;
+}

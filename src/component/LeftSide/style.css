@@ -1,0 +1,88 @@
+.LeftSide {
+    position: relative;
+}
+
+.sidenav---sidenav---_2tBP {
+    position: inherit !important;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    border-radius: 10px;
+    background: #121318 !important;
+    align-items: center;
+}
+
+.sidenav---sidenav---_2tBP.sidenav---expanded---1KdUL {
+    width: 23%;
+}
+
+.sidenav---collapsed---LQDEv {
+    width: 64px;
+}
+
+.sidenav---sidenav-toggle---1KRjR {
+    display: none;
+}
+
+.sidenav---sidenav---_2tBP .avatar {
+    width: 125px;
+    height: 125px;
+    border-radius: 125px;
+    cursor: pointer;
+}
+
+.sidenav---sidenav---_2tBP h2 {
+    margin-top: 20px;
+    font-size: 23px;
+    color: white;
+    font-weight: 500;
+}
+
+.sidenav---sidenav---_2tBP p {
+    font-size: 16px;
+    color: #6C7080;
+    margin-bottom: 30px;
+}
+
+.sidenav---sidenav---_2tBP svg {
+    width: 24px;
+    height: 24px;
+}
+
+.sidenav---sidenav---_2tBP .sidenav---navitem---9uL5T {
+    height: 54px !important;
+    margin-bottom: 10px;
+    font-size: 16px !important;
+}
+
+.sidenav---navtext---1AE_f {
+    color: white !important;
+}
+
+.sidenav---selected---1EK3y .sidenav---navtext---1AE_f {
+    color: #5367FF !important;
+
+}
+
+.sidenav---selected---1EK3y .sidenav---navitem---9uL5T svg {
+    color: #5367FF !important;
+}
+
+.save-uploadImage {
+    width: 40px;
+    height: 40px;
+    margin-top: -50px;
+    margin-left: 100px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #080808;
+    color: white;
+    border: solid 1px #080808;
+    border-radius: 100px;
+}
+
+.save-uploadImage:hover {
+    color: #5367FF;
+}

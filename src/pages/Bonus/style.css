@@ -1,0 +1,14 @@
+.Bonus {
+    background-color: #080808;
+    padding: 70px 80px;
+    color: white;
+    /* height: 50x; */
+}
+
+.Bonus h1 {
+    font-size: 52px;
+    line-height: 64px;
+    font-weight: 700;
+    overflow: hidden;
+    margin-bottom: 40px;
+}

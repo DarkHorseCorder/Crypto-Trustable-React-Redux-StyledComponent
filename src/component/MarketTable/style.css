@@ -1,0 +1,242 @@
+.market-table thead th {
+    color: #6C7080;
+    font-size: 14px;
+    cursor: pointer;
+    border: 0px;
+}
+
+.market-table thead .index {
+    width: 5%;
+}
+
+.market-table-normal thead .name {
+    width: 25%;
+}
+
+.market-table-normal thead .price,
+.market-table-normal thead .percent,
+.market-table-normal thead .high-price,
+.market-table-normal thead .low-price {
+    width: 15%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.market-table-normal thead .chart {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.market-table tbody tr {
+    cursor: pointer;
+}
+
+.market-table tbody tr:hover {
+    background-color: #080808;
+}
+
+.market-table thead th img {
+    margin-top: -5px;
+    margin-left: 5px;
+}
+
+.market-table {
+    margin-top: 20px;
+}
+
+.market-table tr {
+    display: flex;
+}
+
+.market-table tbody tr .index {
+    display: flex;
+    color: #232530;
+    font-size: 16px;
+    width: 5%;
+    align-items: center;
+}
+
+.market-table tbody tr td {
+    border: 0px;
+}
+
+.market-table tbody tr .index img {
+    width: 19px;
+    margin-right: 5px;
+}
+
+.market-table tbody tr .name {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.market-table-normal tbody .name {
+    width: 25%;
+}
+
+.market-table tbody tr .name img {
+    width: 30px;
+}
+
+.market-table tbody tr .name h5 {
+    margin: 0px;
+    font-size: 18px;
+    color: white;
+    margin-left: 5px;
+}
+
+.market-table tbody tr .name p {
+    margin: 0px;
+    width: 48px;
+    height: 23px;
+    display: flex;
+    background: #080808;
+    align-items: center;
+    font-size: 14px;
+    border-radius: 5px;
+    justify-content: center;
+    margin-left: 10px;
+    color: #5367FF;
+}
+
+.market-table tbody tr .price,
+.market-table tbody tr .high-price,
+.market-table tbody tr .low-price {
+    color: white;
+    font-size: 16px;
+}
+
+.market-table-normal tbody tr .price,
+.market-table-normal tbody tr .high-price,
+.market-table-normal tbody tr .low-price {
+    width: 15%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.market-table-normal tbody .chart {
+    width: 10%;
+}
+
+.market-table-normal tbody .chart .up {
+    filter: brightness(0%) saturate(100%) invert(63%) sepia(91%) saturate(4256%) hue-rotate(87deg) brightness(125%) contrast(119%);
+    width: 100%;
+}
+
+.market-table-normal tbody .chart .down {
+    filter: saturate(100%) brightness(0%) invert(23%) sepia(98%) saturate(6806%) hue-rotate(357deg) brightness(101%) contrast(114%);
+    width: 100%;
+}
+
+.market-table tbody tr .percent {
+    color: #03A66D;
+    font-size: 16px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.market-table-normal tbody tr .percent {
+    width: 15%;
+}
+
+.market-table-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.market-table-footer p {
+    font-size: 14px;
+    color: #6C7080;
+}
+
+.market-table-footer a {
+    background: transparent;
+    color: #9295A6;
+    border: solid 1px transparent;
+    cursor: pointer;
+}
+
+.market-table-footer a:hover {
+    background-color: transparent;
+    color: #5367FF;
+    border: solid 1px #5367FF;
+    border-radius: 5px;
+}
+
+.filter-bar .left h5 {
+    color: white;
+    font-size: 33px;
+    margin-bottom: 20px;
+}
+
+.filter-bar .left p {
+    color: #9295A6;
+    font-size: 14px;
+    width: 80%;
+}
+
+.market .toolbar .left-login {
+    display: flex;
+}
+
+
+.market-table-small thead .name {
+    width: 50%;
+}
+
+.market-table-small thead .price {
+    width: 25%;
+}
+
+.market-table-small thead .percent {
+    width: 25%;
+}
+
+.market-table-small tbody {
+    display: block;
+    height: 100%;
+    overflow-y: scroll;
+    position: relative;
+}
+
+.market-table-small tbody tr {
+    height: 56px;
+}
+
+.market-table-small tbody tr td {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.market-table-small tbody .name {
+    width: 50%;
+}
+
+.market-table-small tbody .price {
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.market-table-small tbody {
+    display: block;
+    height: 100%;
+    overflow-y: scroll;
+    position: relative;
+}
+
+.market-table tbody tr {
+    height: 56px;
+}
+
+.market-table-small tbody .name {
+    width: 50%;
+}
+
+.market-table-small tbody .price {
+    width: 25%;
+}

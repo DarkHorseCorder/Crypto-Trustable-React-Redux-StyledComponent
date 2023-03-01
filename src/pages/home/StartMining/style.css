@@ -1,0 +1,75 @@
+.start-mining {
+    width: 70%;
+    background: #3671E9;
+    border-radius: 16px;
+    margin-top: 70px !important;
+    margin-bottom: 70px !important;
+    padding: 0px 30px;
+}
+
+.start-mining .left {
+    background-image: url(/public/image/start-mining-ethereum.svg);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    padding: 50px 0px 50px 20px;
+    background-size: 150px;
+}
+
+.start-mining .left h2 {
+    font-size: 39px;
+}
+
+.start-mining .left p {
+    font-size: 18px;
+    width: 320px;
+}
+
+.start-mining .right {
+    padding: 50px 20px 50px 0px;
+    background-image: url(/public/image/start-mining-bitcoin.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 40px;
+    background-size: 150px;
+    align-items: center;
+    display: flex;
+}
+
+.start-mining .right .input-wrap {
+    width: 250px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid 2px #86aaf2;
+}
+
+.start-mining .right .input-wrap input {
+    width: 100%;
+    background: transparent;
+    border: 0px;
+    font-size: 16px;
+    color: white;
+}
+
+.start-mining .right .input-wrap input::placeholder {
+    color: white;
+}
+
+.start-mining .right .input-wrap input:focus-visible {
+    outline: 0px;
+}
+
+.start-mining .right a {
+    width: 150px;
+    height: 50px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    border-radius: 32px;
+    font-size: 18px;
+    margin-left: 20px;
+}

@@ -1,0 +1,96 @@
+.coin-wrap-animation {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.coin-wrap-animation:before,
+.coin-wrap-animation:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 2px;
+    width: 100%;
+}
+
+.coin-wrap-animation:before {
+    top: 0;
+}
+
+.coin-wrap-animation:after {
+    bottom: 0;
+}
+
+.coin-wrap-animation:hover>*>*:before,
+.coin-wrap-animation:hover>*>*:after {
+    transform: translate3d(0, 0, 0);
+}
+
+.coin-wrap-animation:hover>*>*>*:before,
+.coin-wrap-animation:hover>*>*>*:after {
+    transform: translate3d(0, 0, 0);
+}
+
+.coin-wrap-animation>*:before,
+.coin-wrap-animation>*:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 2px;
+}
+
+.coin-wrap-animation>*:before {
+    left: 0;
+}
+
+.coin-wrap-animation>*:after {
+    right: 0;
+}
+
+.coin-wrap-animation>*>*:before,
+.coin-wrap-animation>*>*:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    z-index: 9;
+    height: 2px;
+    width: 100%;
+    background-color: #168dff;
+}
+
+.coin-wrap-animation>*>*:before {
+    top: 0;
+    transform: translate3d(-105%, 0, 0);
+    transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.coin-wrap-animation>*>*:after {
+    bottom: 0;
+    transform: translate3d(105%, 0, 0);
+    transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.coin-wrap-animation>*>*>*:before,
+.coin-wrap-animation>*>*>*:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    z-index: 9;
+    height: 100%;
+    width: 2px;
+    background-color: #168dff;
+}
+
+.coin-wrap-animation>*>*>*:before {
+    left: 0;
+    transform: translate3d(0, 105%, 0);
+    transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.coin-wrap-animation>*>*>*:after {
+    right: 0;
+    transform: translate3d(0, -105%, 0);
+    transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}

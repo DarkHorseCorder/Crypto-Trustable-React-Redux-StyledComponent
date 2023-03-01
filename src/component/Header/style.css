@@ -1,0 +1,178 @@
+.header .navbar-brand img {
+    width: 50px;
+}
+
+.header .navbar {
+    height: 120px;
+    justify-content: space-between;
+    font-family: Inter;
+    padding: 0px 80px 0px 50px;
+}
+
+.header .navbar-brand {
+    display: flex;
+    color: white;
+    align-items: center;
+    border-right: solid 1px grey;
+}
+
+.header .navbar-brand p {
+    margin-bottom: 0px;
+    color: white;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.header .navlink-wrap {
+    display: flex;
+}
+
+.header .nav-link {
+    color: white;
+}
+
+.header .nav-link:hover {
+    color: #5367FF;
+    transition: .3s;
+}
+
+.header .nav-link:focus {
+    color: #5367FF;
+    text-decoration: underline;
+    text-underline-offset: 40px;
+}
+
+.header .button-wrap {
+    display: flex;
+}
+
+.header .button-wrap .select-currency input {
+    background: transparent;
+    border: 0px;
+    width: 180px;
+    color: #6C7080;
+}
+
+.header .button-wrap .select-currency input::placeholder {
+    color: #6C7080;
+}
+
+.header .register-button {
+    width: 100px;
+    height: 60px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5367ff;
+    border-radius: 10px;
+    margin-left: 10px;
+    opacity: .9;
+    transition: .3s;
+}
+
+.header .register-button:hover {
+    background-color: #5367FF;
+    color: white;
+    opacity: 1;
+}
+
+.header .login-button {
+    width: 100px;
+    height: 60px;
+    color: #5367FF;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+.header .login-button:hover {
+    background-color: #5367FF;
+    color: white;
+}
+
+.header .select-currency {
+    display: flex;
+    align-items: center;
+    width: 180px;
+}
+
+.header .trade-history-button {
+    text-decoration: none;
+    width: 130px;
+    height: 60px;
+    background: #080808;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6C7080;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.header .trade-history-button img {
+    width: 24px;
+    margin-right: 5px;
+}
+
+.header .wallet-button {
+    text-decoration: none;
+    width: 130px;
+    height: 60px;
+    background: #080808;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6C7080;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.header .wallet-button img {
+    width: 24px;
+    margin-right: 5px;
+}
+
+.header .user-picture img {
+    width: 60px;
+    margin-right: 20px;
+    border-radius: 30px;
+}
+
+.header .dropdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .dropdown button {
+    background: transparent !important;
+    border: 0px;
+    color: #6C7080;
+    font-size: 16px;
+}
+
+.header .dropdown button:focus {
+    box-shadow: none !important;
+}
+
+.header .dropdown .dropdown-toggle::after {
+    position: absolute;
+    top: 28px;
+    margin-left: 10px;
+}
+
+.react-autosuggest__suggestions-container {
+    background-color: #080808 !important;
+    color: white;
+    border: 0px !important;
+}

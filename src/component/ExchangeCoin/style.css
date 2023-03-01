@@ -1,0 +1,57 @@
+.exchange-coin {
+    background: #121318;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.exchange-coin h5 {
+    color: white;
+    margin-bottom: 50px;
+}
+
+.exchange-coin .price-status {
+    display: flex;
+    justify-content: space-between;
+}
+
+.exchange-coin .price-status p {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.exchange-coin .price-status p img {
+    width: 30px;
+    margin-right: 18px;
+}
+
+.exchange-coin .exchange-wrap {
+    margin: 10px 0px -20px 0px;
+    text-align: center;
+}
+
+.exchange-coin .fee {
+    margin-bottom: 0px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #9295A6;
+}
+
+.exchange-coin .exchange-button {
+    width: 100%;
+    height: 60px;
+    background: #5367FF;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    margin-top: 50px;
+    opacity: .9;
+}
+
+.exchange-coin .exchange-button:hover {
+    opacity: 1;
+}

@@ -1,0 +1,57 @@
+.coin-selection-wrap {
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+    align-items: center;
+    height: 70px;
+    border: 1px solid rgba(204, 206, 217, 0.15);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.coin-selection-wrap .input-wrap {
+    width: 100%;
+}
+
+.coin-selection-wrap .input-wrap p {
+    color: #6C7080;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.coin-selection-wrap .input-wrap input {
+    font-size: 16px;
+    color: white;
+    background: transparent;
+    border: 0px;
+    border-left: solid 1px #6C7080;
+    width: 100%;
+}
+
+.coin-selection-wrap .input-wrap input::placeholder {
+    color: white;
+}
+
+.coin-selection-wrap .input-wrap input:focus-visible {
+    outline: none;
+}
+
+.coin-selection-wrap .select-wrap {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    align-items: center;
+}
+
+.coin-selection-wrap .selectinput {
+    margin-left: -200px;
+    z-index: 2;
+    background-color: #080808;
+    color: white;
+}
+
+.coin-selection-wrap .selectinput img {
+    width: 30px;
+    margin-right: 15px;
+    border-radius: 100px;
+}

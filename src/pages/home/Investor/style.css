@@ -1,0 +1,36 @@
+.investor {
+    width: 100%;
+    background: #121318;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.investor .title {
+    height: 120px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border-bottom: solid 2px #2c2d32;
+    width: 80%;
+}
+
+.investor .title p {
+    margin-bottom: -18px;
+    background: #121318;
+    font-size: 23px;
+    padding: 0px 30px
+}
+
+.investor .investor-wrap {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+
+.investor .investor-wrap img {
+    cursor: pointer;
+}

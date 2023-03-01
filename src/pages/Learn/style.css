@@ -1,0 +1,43 @@
+.learnpage {
+    background-color: #080808;
+    padding: 70px 80px;
+    color: white;
+}
+
+.learnpage h1 {
+    font-size: 52px;
+    line-height: 64px;
+    font-weight: 700;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.learnpage h2 {
+    font-size: 44px;
+    line-height: 54px;
+    font-weight: 700;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.learnpage h3 {
+    font-size: 34px;
+    line-height: 44px;
+    font-weight: 700;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.learnpage p {
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.learnpage li {
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}

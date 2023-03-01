@@ -1,0 +1,122 @@
+.reset-password {
+    background: black;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+.reset-password .logo {
+    position: absolute;
+    top: 50px;
+    right: 200px;
+}
+
+.reset-password .logo a {
+    width: 180px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+}
+
+.reset-password .logo a img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.reset-password .logo a p {
+    margin-bottom: 0px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.reset-password-inner {
+    width: 562px;
+    height: 50%;
+}
+
+.reset-password-inner h1 {
+    font-size: 39px;
+    color: white;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.reset-password .sub-title {
+    display: flex;
+    justify-content: center;
+}
+
+.reset-password .sub-title p {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    width: 90%;
+    margin-bottom: 70px;
+}
+
+.reset-password p {
+    font-size: 16px;
+    color: #5367FF;
+    margin-bottom: 20px;
+}
+
+.reset-password-inner .input-wrap {
+    width: 562px;
+    height: 62px;
+    background-color: #121318;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.reset-password-inner .input-wrap input {
+    background: transparent;
+    width: 100%;
+    border: 0px;
+    font-size: 16px;
+    color: white;
+}
+
+.reset-password-inner .input-wrap input:focus-visible {
+    outline: none;
+}
+
+.reset-password-inner .reset-password-button {
+    width: 100%;
+    display: flex;
+    height: 60px;
+    background-color: #5367FF;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 16px;
+    margin: 50px 0px;
+    opacity: .9;
+}
+
+.reset-password-inner .reset-password-button:hover {
+    opacity: 1;
+}
+
+.reset-password .input-wrap button {
+    background: transparent;
+    border: 0px;
+}
+
+.reset-password .error {
+    position: absolute;
+    margin-top: 110px;
+    color: red;
+    margin-left: -20px;
+    text-align: start;
+}

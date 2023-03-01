@@ -1,0 +1,152 @@
+.profile-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.profile-title h1 {
+    font-size: 23px;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.profile-title button {
+    width: 90px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(204, 206, 217, 0.15);
+    border-radius: 5px;
+    color: #9295A6;
+    font-size: 14px;
+    background-color: transparent;
+}
+
+.profile-title button svg {
+    width: 24px;
+    height: 24px;
+    color: #9295A6;
+    margin-right: 14px;
+}
+
+.profile h2 {
+    font-size: 16px;
+    color: white;
+}
+
+.profile p {
+    font-size: 14px;
+    color: #6C7080;
+}
+
+.profile .personal-information-wrap {
+    margin-top: 30px;
+    padding-bottom: 25px;
+    border-bottom: solid 1px #6C7080;
+    margin-bottom: 25px;
+}
+
+.profile .personal-information-wrap-column {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile .information-item {
+    width: 48%;
+}
+
+.profile .information-item label {
+    color: #6C7080;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.profile .information-item .input-wrap {
+    width: 100%;
+    background-color: #080808;
+    height: 50px;
+    display: flex;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    align-items: center;
+    padding: 14px 20px;
+    justify-content: space-between;
+}
+
+.profile .information-item input {
+    background-color: transparent;
+    color: #9295A6;
+    font-size: 14px;
+    width: 80%;
+    border: 0px;
+}
+
+.profile .information-item input:focus-visible {
+    outline: none;
+}
+
+.profile .information-item input:focus {
+    box-shadow: none;
+}
+
+.profile .information-item .input-wrap svg {
+    width: 22px;
+    height: 22px;
+    color: #DADADA;
+}
+
+.profile-setting {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-setting h3 {
+    font-size: 16px;
+    color: #9295A6;
+}
+
+.profile-setting-button-wrap {
+    display: flex;
+}
+
+.profile-setting-button-wrap button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 16px;
+    border: 0px;
+    opacity: .9;
+}
+
+.profile-setting-button-wrap button:hover {
+    color: white;
+    opacity: 1;
+}
+
+.profile-setting-cancel {
+    width: 130px;
+    height: 60px;
+    background-color: #080808;
+    color: #5367FF;
+    margin-right: 30px;
+}
+
+.profile-setting-cancel:hover {
+    background-color: #5367FF;
+    color: white;
+}
+
+.profile-setting-save {
+    width: 215px;
+    height: 60px;
+    background-color: #5367FF;
+    color: white;
+    opacity: .9;
+}
+
+.profile-setting-save:hover {
+    opacity: 1;
+}

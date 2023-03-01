@@ -1,0 +1,332 @@
+.market {
+    background-color: black;
+    padding: 70px 60px 0px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.market .prices-by-marketcap {
+    width: 100%;
+    background: #121318;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.market .prices-by-marketcap .filter .left h1 {
+    color: white;
+    font-size: 33px;
+    margin-bottom: 20px;
+}
+
+.market .prices-by-marketcap .filter .left p {
+    color: #9295A6;
+    font-size: 14px;
+    width: 80%;
+}
+
+.market .prices-by-marketcap .filter .right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.market .prices-by-marketcap .filter .right input {
+    color: #9295A6;
+    font-size: 14px;
+    background: transparent;
+    border: 0px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.market .prices-by-marketcap .filter .right input:focus-visible {
+    outline: none;
+}
+
+.market .prices-by-marketcap .filter .right .dropdown button {
+    color: #9295A6;
+    font-size: 14px;
+    background: transparent;
+    border: 0px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.market .prices-by-marketcap .filter .right .dropdown button:focus {
+    box-shadow: none;
+}
+
+.market .prices-by-marketcap .filter .right input::-webkit-calendar-picker-indicator {
+    background-image: url(/public/image/arrow-down.svg);
+    margin-bottom: -10px;
+}
+
+.market .prices-by-marketcap .topcoin-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.market .prices-by-marketcap .topcoin-wrap .coin-wrap-animation {
+    width: 23%;
+}
+
+.market .prices-by-marketcap .topcoin-wrap .coin-wrap {
+    display: flex;
+    position: relative;
+    background-color: #080808;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.market .prices-by-marketcap .topcoin-wrap .coin-wrap:hover {}
+
+.market .prices-by-marketcap .topcoin-wrap .coin-wrap .coin-name {
+    width: 50%;
+    display: flex;
+    height: 30px;
+    align-items: center;
+}
+
+.market .prices-by-marketcap .topcoin-wrap .coin-wrap .coin-name img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.market .prices-by-marketcap .topcoin-wrap .coin-wrap .coin-name h5 {
+    font-size: 19px;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.market .prices-by-marketcap .topcoin-wrap .coin-wrap .coin-name p {
+    display: none;
+}
+
+.market .prices-by-marketcap .topcoin-wrap .coin-wrap .coin-price {
+    position: absolute;
+    padding-top: 50px;
+    display: flex;
+    width: 50%;
+}
+
+.market .prices-by-marketcap .topcoin-wrap .coin-wrap .coin-price h5 {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.market .prices-by-marketcap .topcoin-wrap .coin-wrap .coin-price p {
+    color: #03A66D;
+    font-size: 12px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.market .prices-by-marketcap .topcoin-wrap .coin-wrap .coin-graph {
+    width: 50%;
+    margin: 10px 0px;
+}
+
+.market .prices-by-marketcap .topcoin-wrap .coin-wrap .coin-graph .up {
+    filter: brightness(0%) saturate(100%) invert(63%) sepia(91%) saturate(4256%) hue-rotate(87deg) brightness(125%) contrast(119%);
+    width: 100%;
+}
+
+.market .market-unlogin {
+    background-color: #121318;
+    width: 100%;
+    margin-top: 70px;
+    padding: 40px;
+    border-radius: 10px;
+    margin-bottom: 70px;
+}
+
+.market .filter-bar {
+    padding-bottom: 20px;
+    border-bottom: solid 1px gray;
+}
+
+.market .filter-bar button {
+    background: transparent;
+    width: 140px;
+    height: 50px;
+    border: solid 2px #44454c;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #9295A6;
+    margin-right: 20px;
+}
+
+.market .filter-bar button:focus {
+    color: #5367FF;
+    border-color: #0169d9;
+}
+
+.market .filter-bar .right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center
+}
+
+.market .filter-bar .right .search-input-wrap {
+    width: 300px;
+    height: 50px;
+    padding: 13px 10px;
+    border: solid 2px #44454c;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.market .filter-bar .right .search-input-wrap img {
+    width: 24px;
+}
+
+.market .filter-bar .right .search-input-wrap input {
+    background: transparent;
+    border: 0px;
+    color: #9295A6;
+    margin-left: 20px;
+    font-size: 14px;
+    width: 80%;
+}
+
+.market .filter-bar .right .search-input-wrap input:focus-visible {
+    outline: none;
+}
+
+.market .filter-bar .right .search-input-wrap input:focus {
+    box-shadow: none;
+}
+
+.market .filter-bar .right .search-input-wrap input::placeholder {
+    color: #9295A6;
+}
+
+.market .toolbar {
+    padding: 30px 0px;
+    border-bottom: solid 1px gray;
+}
+
+.market .toolbar .left {
+    display: flex;
+}
+
+
+
+.market .toolbar .right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.market .toolbar .right select {
+    width: 83px;
+    height: 52px;
+    background: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #9295A6;
+    font-size: 14px;
+}
+
+.market .toolbar .right select:focus-visible {
+    outline: none;
+}
+
+.market .toolbar .right .close {
+    width: 12px;
+    margin-right: 10px;
+}
+
+.market .toolbar .right .icon-filter,
+.market .toolbar .right .clear-filter {
+    width: 18px;
+}
+
+
+.market .toolbar .right .customize {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.market .toolbar .right a {
+    text-decoration: none;
+    color: #9295A6;
+    font-size: 14px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.market .right-side {
+    margin-top: 70px;
+    width: 28%;
+    padding: 40px 30px;
+    background-color: #121318;
+    border-radius: 10px;
+    margin-bottom: 70px;
+}
+
+.market .right-side-coin-market {
+    height: 48%;
+    margin-bottom: 60px;
+}
+
+.market .right-side-coin-market .right-market-table {
+    height: 90%;
+}
+
+.market .right-side-coin-market .header {
+    border-bottom: 1px solid rgba(233, 234, 240, 0.15);
+    display: flex;
+    justify-content: space-between;
+}
+
+.market .right-side-coin-market .header a {
+    height: 40px;
+    color: #6C7080;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.market .right-side-coin-market .header a:focus {
+    color: #5367FF;
+    text-decoration: underline;
+    text-underline-offset: 20px;
+}
+
+.market .right-watchlist-market {
+    height: 48%;
+}
+
+.market .right-watchlist-market .right-market-table {
+    height: 90%;
+}
+
+.market .right-watchlist-market .header {
+    border-bottom: 1px solid rgba(233, 234, 240, 0.15);
+    display: flex;
+    justify-content: space-between;
+}
+
+.market .right-watchlist-market .header p {
+    font-size: 18px;
+    color: #2B3144;
+}
+
+.market .right-watchlist-market .header a svg {
+    color: #9295A6;
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+}
+
+.market .market-table-small {
+    height: 90%;
+}

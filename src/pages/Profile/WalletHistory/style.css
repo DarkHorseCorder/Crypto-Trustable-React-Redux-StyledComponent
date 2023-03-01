@@ -1,0 +1,68 @@
+.wallet-history h1 {
+    font-size: 23px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.wallet-history table {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.wallet-history table thead {
+    display: flex;
+    height: 43px;
+    color: #6c7080;
+    font-size: 16px;
+    border-bottom: solid 2px rgb(33, 37, 41);
+    align-items: center;
+}
+
+.wallet-history table thead tr {
+    width: 100%;
+    display: flex;
+}
+
+.wallet-history table thead th {
+    padding-left: 10px;
+}
+
+.wallet-history table tbody {
+    display: flex;
+    width: 100%;
+    font-size: 16px;
+    flex-direction: column;
+}
+
+.wallet-history table tbody tr {
+    height: 56px;
+    color: white;
+    display: flex;
+    width: 100%;
+}
+
+.wallet-history table tbody tr:hover {
+    background-color: #080808;
+}
+
+.wallet-history table tbody td {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.wallet-history .coinName img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.wallet-history .coinName,
+.wallet-history .date,
+.wallet-history .amount {
+    width: 17%;
+}
+
+.wallet-history .address {
+    width: 30%;
+}

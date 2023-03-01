@@ -1,0 +1,154 @@
+.watchlist {
+    background-color: #080808;
+    padding: 70px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.watchlist-left {
+    width: 70%;
+    padding: 40px;
+    background-color: #121318;
+    border-radius: 10px;
+}
+
+.watchlist-left-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.watchlist-left-header .title h1 {
+    color: white;
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+.watchlist-left-header .title p {
+    color: #9295A6;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+.watchlist-left-filter .add-coin-button-wrap button {
+    width: 125px;
+    height: 50px;
+    border: 1px solid rgba(204, 206, 217, 0.15);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    color: #9295A6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.watchlist-left-filter .add-coin-button-wrap button svg {
+    color: #9295A6;
+    margin-right: 10px;
+}
+
+.watchlist-left-filter {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.watchlist-left-filter .button-wrap {
+    display: flex;
+}
+
+.watchlist-left-filter .filter-category {
+    background-color: #5367FF;
+    color: white;
+    margin-right: 30px;
+}
+
+.watchlist-left-filter .filter-category:focus {
+    background-color: #080808;
+    color: #9295A6;
+}
+
+.watchlist-left-filter .button-wrap button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+    gap: 30px;
+    width: 52px;
+    height: 52px;
+    background: #080808;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.watchlist-left-filter .button-wrap button svg {
+    color: #9295A6;
+}
+
+.watchlist-left-filter .search-wrap {
+    width: 315px;
+    height: 50px;
+    border: 1px solid rgba(204, 206, 217, 0.15);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 13px 10px;
+}
+
+.watchlist-left-filter .search-wrap svg {
+    color: #9295A6;
+    margin-right: 13px;
+}
+
+.watchlist-left-filter .search-wrap input {
+    background-color: transparent;
+    border: 0px;
+    color: #9295A6;
+}
+
+.watchlist-left-filter .search-wrap input:focus-visible {
+    outline: none;
+}
+
+.watchlist-left .market-table {
+    margin-top: 50px;
+}
+
+.watchlist-right {
+    width: 28%;
+}
+
+.watchlist-right-down {
+    margin-top: 30px;
+    background: #121318;
+    border-radius: 10px;
+    padding: 40px 30px;
+}
+
+.watchlist-right-down-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 2px;
+    align-items: flex-start;
+    height: 50px;
+}
+
+.watchlist-right-down-header a {
+    height: 40px;
+    color: #6C7080;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.watchlist-right-down-header a:focus {
+    color: #5367FF;
+    text-decoration: underline;
+    text-underline-offset: 25px;
+}
+
+.watchlist-right .market-table tbody {
+    height: 230px;
+}

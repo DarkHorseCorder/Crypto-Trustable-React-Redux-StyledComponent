@@ -1,0 +1,89 @@
+.security-profile h1 {
+    font-size: 23px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.security-profile h2 {
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.security-profile p {
+    color: #9295A6;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.security-profile label {
+    color: #6C7080;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.security-profile .password-input-wrap {
+    width: 100%;
+    background-color: #080808;
+    border-radius: 5px;
+    height: 50px;
+    padding: 14px 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.security-profile input {
+    width: 100%;
+    background-color: transparent;
+    font-size: 14px;
+    color: #9295A6;
+    border: 0px;
+}
+
+.security-profile input:focus-visible {
+    outline: none;
+}
+
+.security-profile .password-change-inner-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.security-profile .new-password,
+.security-profile .reenter-password {
+    width: 48%;
+}
+
+.security-profile-footer {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.security-profile-footer button {
+    background: #5367FF;
+    border-radius: 10px;
+    width: 230px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: white;
+    opacity: .9;
+}
+
+.security-profile-footer button:hover {
+    opacity: 1;
+}
+
+.security-profile .error {
+    position: absolute;
+    margin-top: 90px;
+    color: red;
+    margin-left: -20px;
+}

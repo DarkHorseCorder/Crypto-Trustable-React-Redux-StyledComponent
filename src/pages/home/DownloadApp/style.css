@@ -1,0 +1,76 @@
+.download-app {
+    width: 90%;
+    margin-top: 100px !important;
+}
+
+.download-app .left img {
+    width: 90%;
+}
+
+.download-app .right {
+    padding: 80px 0px 80px 30px;
+}
+
+.download-app .right p {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #9295A6;
+    width: 480px;
+    margin-bottom: 20px;
+}
+
+.download-app .right .title {
+    color: #5367FF;
+    margin-bottom: 20px;
+}
+
+.download-app .right h1 {
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 20px;
+}
+
+.download-app .right .download-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.download-app .right .download-item {
+    width: 23%;
+    padding: 20px 0px;
+    background: #121318;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.download-app .right .download-item:hover {
+    background-color: #232530;
+}
+
+.download-app .right .download-item-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: solid 3px #232530;
+}
+
+.download-app .right .download-item-inner svg {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 40px;
+}
+
+.download-app .right .download-item-inner h5 {
+    font-size: 19px;
+    line-height: 23px;
+    letter-spacing: .5px;
+    margin-bottom: 10px;
+}
+
+.download-app .right .download-item-inner p {
+    width: 90%;
+    text-align: center;
+}

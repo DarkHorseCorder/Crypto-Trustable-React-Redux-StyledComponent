@@ -1,0 +1,125 @@
+.recovery-phrase {
+    background: black;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+.recovery-phrase .logo {
+    position: absolute;
+    top: 50px;
+    right: 200px;
+}
+
+.recovery-phrase .logo a {
+    width: 180px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+}
+
+.recovery-phrase .logo a img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.recovery-phrase .logo a p {
+    margin-bottom: 0px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.recovery-phrase-inner {
+    width: 80%;
+    height: 60%;
+}
+
+.recovery-phrase-inner h1 {
+    font-size: 39px;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.recovery-phrase .sub-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recovery-phrase .sub-title p {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    width: 90%;
+    margin-bottom: 70px;
+}
+
+
+
+.recovery-phrase-inner .phrase-list {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.recovery-phrase-inner .phrase-list div {
+    width: 23%;
+    height: 80px;
+    background: #121318;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.recovery-phrase-inner .phrase-list div p {
+    margin-bottom: 0px;
+    color: white;
+    font-size: 24px;
+}
+
+.recovery-phrase-inner .phrase-list .code-input-wrap input:focus-visible {
+    outline: none;
+}
+
+.warning {
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.warning label {
+    color: yellow;
+}
+
+.recovery-phrase-button-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.recovery-phrase-inner .recovery-phrase-button {
+    width: 300px;
+    display: flex;
+    height: 60px;
+    background-color: #5367FF;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 16px;
+    margin: 50px 0px;
+    opacity: .9;
+}
+
+.recovery-phrase-inner .recovery-phrase-button:hover {
+    opacity: 1;
+}
