@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# Crypto Trustable React Redux App with Styled Component
+
+![screencapture-localhost-3000-2023-03-02-03_54_54](https://user-images.githubusercontent.com/120799088/222240863-339b8f8f-e364-42e7-a225-1dd95763e964.png)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
